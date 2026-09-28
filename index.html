@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#09050d">
+    <meta name="description" content="A special birthday surprise">
+
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         BACKGROUND
+    ========================== -->
+
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-three"></div>
+
+    <div id="particles"></div>
+
+
+    <!-- =========================
+         INTRO SCREEN
+    ========================== -->
+
+    <section class="intro" id="intro">
+
+        <div class="intro-content">
+
+            <div class="tiny-label">
+                ✦ A LITTLE SURPRISE ✦
+            </div>
+
+            <h1>
+                Some wishes<br>
+                are too special
+                <span>for a text.</span>
+            </h1>
+
+            <p>
+                So I made something special for you.
+            </p>
+
+            <button class="start-btn" id="startBtn">
+                <span>Open Your Surprise</span>
+                <span class="arrow">→</span>
+            </button>
+
+        </div>
+
+        <div class="intro-heart">
+            ♥
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         MAIN WEBSITE
+    ========================== -->
+
+    <main id="mainContent">
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero section">
+
+            <div class="hero-decoration">
+                <span>✦</span>
+                <span>♡</span>
+                <span>✦</span>
+            </div>
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+                    TODAY IS YOUR DAY
+                </div>
+
+                <h2>
+                    Happy Birthday
+                </h2>
+
+                <h1 id="heroName">
+                    Nitya
+                </h1>
+
+                <div class="gold-line"></div>
+
+                <p id="heroSubtitle">
+                    A little website made with a lot of love.
+                </p>
+
+                <button class="glow-btn" id="beginBtn">
+                    See Your Moments
+                    <span>↓</span>
+                </button>
+
+            </div>
+
+            <div class="scroll-hint">
+                <span></span>
+                Scroll to explore
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             MOMENTS SECTION
+        ========================== -->
+
+        <section class="moments section" id="moments">
+
+            <div class="section-heading reveal">
+
+                <div class="section-icon">
+                    ♡
+                </div>
+
+                <div class="mini-title">
+                    LITTLE MEMORIES
+                </div>
+
+                <h2>
+                    Moments with
+                    <span>You</span>
+                </h2>
+
+                <p>
+                    Because some memories deserve their own little corner.
+                </p>
+
+            </div>
+
+
+            <div class="photo-stage" id="photoStage"></div>
+
+
+            <div class="memory-caption reveal">
+                <span>✦</span>
+                Four moments. One beautiful story.
+                <span>✦</span>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             MESSAGE SECTION
+        ========================== -->
+
+        <section class="message section">
+
+            <div class="message-glow"></div>
+
+            <div class="message-content reveal">
+
+                <div class="mini-title">
+                    JUST A LITTLE THOUGHT
+                </div>
+
+                <h2>
+                    You make ordinary
+                    moments feel
+                    <span>special.</span>
+                </h2>
+
+                <div class="quote-line"></div>
+
+                <p id="mainMessage">
+                    You deserve all the beautiful things life has to offer.
+                    Keep smiling, keep dreaming and keep being the wonderful
+                    person you are.
+                </p>
+
+                <div class="signature">
+                    — From someone who wishes you the best
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LETTER SECTION
+        ========================== -->
+
+        <section class="letter-section section" id="letter">
+
+            <div class="section-heading reveal">
+
+                <div class="section-icon">
+                    ✉
+                </div>
+
+                <div class="mini-title">
+                    ONE MORE THING
+                </div>
+
+                <h2>
+                    A Special
+                    <span>Letter</span>
+                </h2>
+
+                <p>
+                    There is something waiting for you inside.
+                </p>
+
+            </div>
+
+
+            <div class="envelope-area reveal">
+
+                <button
+                    class="envelope"
+                    id="envelope"
+                    aria-label="Open letter"
+                >
+
+                    <div class="envelope-back"></div>
+
+                    <div class="letter-paper">
+
+                        <div class="letter-top">
+                            ✦ A little note ✦
+                        </div>
+
+                        <h3>
+                            For You
+                        </h3>
+
+                        <p id="letterText">
+                            May this year bring you countless reasons
+                            to smile, beautiful memories to keep,
+                            and dreams that slowly become reality.
+                        </p>
+
+                        <div class="letter-heart">
+                            ♥
+                        </div>
+
+                    </div>
+
+                    <div class="envelope-front"></div>
+
+                    <div class="envelope-flap"></div>
+
+                </button>
+
+
+                <p class="click-hint" id="clickHint">
+                    Tap the envelope to open
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SURPRISE SECTION
+        ========================== -->
+
+        <section class="surprise section">
+
+            <div class="surprise-content reveal">
+
+                <div class="mini-title">
+                    WAIT...
+                </div>
+
+                <h2>
+                    There's still
+                    <span>one more surprise.</span>
+                </h2>
+
+                <p>
+                    Don't leave just yet.
+                </p>
+
+                <button class="surprise-btn" id="surpriseBtn">
+                    <span class="button-heart">♥</span>
+                    Click Me
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FINAL SECTION
+        ========================== -->
+
+        <section class="final section" id="final">
+
+            <div class="final-stars"></div>
+
+            <div class="final-content">
+
+                <div class="final-small reveal">
+                    TODAY • TOMORROW • ALWAYS
+                </div>
+
+                <div class="big-heart reveal">
+                    ♥
+                </div>
+
+                <h2 class="reveal">
+                    Happy Birthday
+                </h2>
+
+                <h1
+                    id="finalName"
+                    class="reveal"
+                >
+                    Nitya
+                </h1>
+
+                <p
+                    id="finalMessage"
+                    class="reveal"
+                >
+                    May your life always be filled
+                    with happiness, laughter and beautiful moments.
+                </p>
+
+                <div class="final-line reveal"></div>
+
+                <div class="final-note reveal">
+                    Made specially for you ✦
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- =========================
+         SURPRISE POPUP
+    ========================== -->
+
+    <div
+        class="surprise-overlay"
+        id="surpriseOverlay"
+    >
+
+        <div class="burst-container" id="burstContainer"></div>
+
+        <div class="surprise-box">
+
+            <div class="surprise-symbol">
+                ✨
+            </div>
+
+            <div class="mini-title">
+                THE LAST LITTLE THING
+            </div>
+
+            <h2>
+                You deserve
+                <span>beautiful days.</span>
+            </h2>
+
+            <p>
+                And I hope this new chapter of your life
+                gives you plenty of them.
+            </p>
+
+            <button
+                class="close-surprise"
+                id="closeSurprise"
+            >
+                Continue →
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
