@@ -3,7 +3,7 @@
 ========================================= */
 
 const birthdayData = {
-    name: "pratibha",
+    name: "shree",
 
     subtitle:
         "A little website made with a lot of love.",
